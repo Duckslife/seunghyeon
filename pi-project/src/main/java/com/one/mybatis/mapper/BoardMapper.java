@@ -23,7 +23,7 @@ public interface BoardMapper {
 		@Select("SELECT * from Board order by no desc")
 		List<Map<String, Object>> findAll();
 		
-		@Update("UPDATE Board SET name=#{BoardName}, district =#{district} WHERE no =#{vno}")
+		@Update("UPDATE Board SET name=#{BoardName}, district =#{district} WHERE no =#{no}")
 		void updateBoard(Board Board);
 		
 		@Delete("DELETE FROM Board WHERE no =#{no}")

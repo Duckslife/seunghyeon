@@ -29,7 +29,7 @@ public class MainController {
 	@RequestMapping(method=RequestMethod.GET, value={"/","/index.html"})
 	public String index(HttpServletRequest request , HttpServletResponse respone , Model model) throws Exception {
 		
-		model.addAttribute("title", "4차 프로젝트 블로그");
+		model.addAttribute("title", "4차 프로젝트 블로그 메인");
 		model.addAttribute("menu", "index");    
 	 	System.out.println("시스템 가동 준비완료!");
 		
@@ -42,7 +42,7 @@ public class MainController {
 		
 		model.addAttribute("title", "4차 프로젝트 블로그");
 		model.addAttribute("menu", "blog");
-		System.out.println("블로그 인덱스 준비완료!");
+		System.out.println("블로그 인덱스 준비완료!");                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 		
 		return "/ctrl/main/blog";
 		
@@ -52,7 +52,7 @@ public class MainController {
 	@RequestMapping(method=RequestMethod.GET, value={"/contact.html"})
 	public String contact(HttpServletRequest request , HttpServletResponse respone , Model model) throws Exception {
 		
-		model.addAttribute("title", "4차 프로젝트 블로그");
+		model.addAttribute("title", "4차 프로젝트 블로그 컨텍");
 		model.addAttribute("menu", "contact");
 		System.out.println("블로그 인덱스 준비완료!");
 		
@@ -60,14 +60,14 @@ public class MainController {
 		
 		
 	}
-	@RequestMapping(method=RequestMethod.GET, value={"/login.html"})
+	@RequestMapping(method=RequestMethod.GET, value={"/project-example.html"})
 	public String login(HttpServletRequest request , HttpServletResponse respone , Model model) throws Exception {
 		
-		model.addAttribute("title", "4차 프로젝트 블로그");
-		model.addAttribute("menu", "login");
+		model.addAttribute("title", "4차 프로젝트 블로그 샘플");
+		model.addAttribute("menu", "project-example");
 		System.out.println("블로그 인덱스 준비완료!");
 		
-		return "/ctrl/main/contact";
+		return "/ctrl/main/project-example";
 		
 		
 	}
