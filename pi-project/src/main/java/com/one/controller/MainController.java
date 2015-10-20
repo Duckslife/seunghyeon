@@ -7,7 +7,6 @@ import javax.servlet.Filter;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.converter.HttpMessageConverter;
 import org.springframework.http.converter.StringHttpMessageConverter;
@@ -17,11 +16,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.filter.CharacterEncodingFilter;
 
-import com.one.mybatis.AppConfig;
-import com.one.mybatis.Board;
-import com.one.mybatis.Village;
-import com.one.mybatis.mapper.BoardMapper;
-import com.one.mybatis.mapper.VillageMapper;
 
 // MainController :
 @Controller
@@ -75,7 +69,7 @@ public class MainController {
 	public String insert(HttpServletRequest request , HttpServletResponse respone , Model model) throws Exception {
 		
 		
-        AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
+        /*AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
  	    ctx.register(AppConfig.class);
  	    ctx.refresh();
  	    VillageMapper mapper = ctx.getBean(VillageMapper.class);	
@@ -84,7 +78,7 @@ public class MainController {
  	    village.setVillageName("정승현");
  	    village.setDistrict("인천");
  	    mapper.insertVillage(village);
-        System.out.println("---Data saved---");
+        System.out.println("---Data saved---");*/
        
         model.addAttribute("title", "형이 알아봐 줄게.. 넌 숨만 쉬어.");
 		System.out.println("시스템 가동 준비완료!");
