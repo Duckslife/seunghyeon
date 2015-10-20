@@ -9,7 +9,7 @@
                                 <div class="col-lg-12">
                                     
                                     <!--activity image-->
-                                    <img class="img-responsive" src="img/image-home-2.jpg" alt="Project header">
+                                    <img class="img-responsive" src="/img/image-home-2.jpg" alt="Project header">
                                     
                                     <!--activity title -->
                                     <h1>라즈베리파이를 이용한 블로그 프로젝트 v2</h1>
@@ -18,7 +18,7 @@
                                     <!--activity descritpion-->
                                     <p class="work">Living in incheon</p>
                                     <p>라즈베리파이에 Ubuntu Mate , 개발환경은 스프링 부트와 마리아 db를 이용하여 구성 </p>
-                                    <p>마이바티스 셀렉트가 안되네 아오</p>
+                                    <p>하이버 네이트 (JPA) 연동 PRODUCT , 작성폼 CK 에디터 준비</p>
                                 
                                 </div>
                             </div>   
@@ -47,17 +47,17 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix web-design">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
+                                    <a href="/project-example.html">
                                     
                                         <!--work image-->
-                                        <img class="img-responsive item-img" src="img/work/projet-example-1.png" alt="Work 1">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-1.png" alt="Work 1">
                                         
                                     </a>
                                 </div>
                                 <div class="panel-body">
                                 
                                     <!--work title-->
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     
                                     <!--work category-->
                                     <p class="item-category">Logotype</p>
@@ -80,12 +80,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix print">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-6.jpg" alt="Work 2">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-6.jpg" alt="Work 2">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Web design</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -100,12 +100,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix web-design">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-3.png" alt="Work 3">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-3.png" alt="Work 3">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Illustration</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -120,12 +120,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix print">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-4.png" alt="Work 4">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-4.png" alt="Work 4">
                                     </a>
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Logotype</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -140,12 +140,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix illustration">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-5.png" alt="Work 5">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-5.png" alt="Work 5">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Logotype</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -160,12 +160,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix print">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-9.jpg" alt="Work 6">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-9.jpg" alt="Work 6">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Web design</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -180,12 +180,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix illustration">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-7.png" alt="Work 7">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-7.png" alt="Work 7">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Branding</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -200,12 +200,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix illustration">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-8.png" alt="Work 8">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-8.png" alt="Work 8">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Poster</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -220,12 +220,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix illustration">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-2.png" alt="Work 9">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-2.png" alt="Work 9">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Logotype</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -240,12 +240,12 @@
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-6 mix print">
                             <div class="panel panel-default item">
                                 <div class="panel-heading">
-                                    <a href="project-example.html">
-                                        <img class="img-responsive item-img" src="img/work/projet-example-10.png" alt="Work 10">
+                                    <a href="/project-example.html">
+                                        <img class="img-responsive item-img" src="/img/work/projet-example-10.png" alt="Work 10">
                                     </a>    
                                 </div>
                                 <div class="panel-body">
-                                    <a href="project-example.html"><h4 class="item-title">Project Title</h4></a>
+                                    <a href="/project-example.html"><h4 class="item-title">Project Title</h4></a>
                                     <p class="item-category">Logotype</p>
                                     <p class="item-description">Iam virtutem ex consuetudine vitae sermonisque nostri nostri nostri</p>
                                     <hr>
@@ -259,7 +259,7 @@
                         </div>
                     </section>
                     <a class="btn btn-block scroll-top visible-xs">
-                        <img src="img/icon/icon-chevron.png" alt="Scroll top">
+                        <img src="/img/icon/icon-chevron.png" alt="Scroll top">
                     </a>
                 </div>
             </div>                        

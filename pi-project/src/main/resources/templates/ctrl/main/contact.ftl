@@ -45,7 +45,7 @@
                                         <a href="#">
                                             
                                             <!--your image-->    
-                                            <img class="img-responsive item-img" src="img/contact/avatar-contact.jpg" alt="Avatar">
+                                            <img class="img-responsive item-img" src="/img/contact/avatar-contact.jpg" alt="Avatar">
                                             
                                         </a>
                                     </div>
@@ -63,10 +63,10 @@
                                         
                                         <!--social networks-->
                                         <div class="item-social text-center">
-                                            <a href="#"><img class="social" src="img/icon/icon-facebook.png" alt="Facebook"></a>
-                                            <a href="#"><img class="social bis" src="img/icon/icon-twitter.png" alt="Twitter"></a>
-                                            <a href="#"><img class="social" src="img/icon/icon-google.png" alt="Google plus"></a>
-                                            <a href="#"><img class="social bis" src="img/icon/icon-linkedin.png" alt="Linkedin"></a>
+                                            <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
+                                            <a href="#"><img class="social bis" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
+                                            <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>
+                                            <a href="#"><img class="social bis" src="/img/icon/icon-linkedin.png" alt="Linkedin"></a>
                                         </div>
                                         
                                     </div>

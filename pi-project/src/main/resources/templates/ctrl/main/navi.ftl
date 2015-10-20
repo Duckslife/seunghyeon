@@ -8,18 +8,24 @@
                 <div class="col-lg-4 col-md-4 col-sm-5 col-right">
                     <nav>
                         <ul class="list-inline" id="menu">
-                            <#if menu == "index" || menu =="project-example"><li class="active" ><#else> <li> </#if>
-                                <a href="index.html">Product</a>
+                            <#if menu == "index" >
+                            <li class="active" >
+							<#elseif menu == "product">
+                            <li class="active" >
+                            <#elseif menu =="project-example">
+                            <li class="active" >
+                            <#else> <li> </#if>
+                                <a href="/product">Product</a>
                             </li>
                            <#if menu == "blog"><li class="active" ><#else> <li> </#if>
-                                <a href="blog.html">blog</a>
+                                <a href="/blog.html">blog</a>
                             </li>
                             <#if menu == "contact"><li class="active" ><#else> <li> </#if>
-                                <a href="contact.html">contact</a>
+                                <a href="/contact.html">contact</a>
                             </li>
                             <li class="last">
-                                <a href="#"><img class="social" src="img/icon/icon-facebook.png" alt="facebook"></a>
-                                <a href="#"><img class="social" src="img/icon/icon-twitter.png" alt="twitter"></a>
+                                <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="facebook"></a>
+                                <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="twitter"></a>
                             </li>
                         </ul>
                     </nav>

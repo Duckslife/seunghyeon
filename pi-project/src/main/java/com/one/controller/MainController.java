@@ -20,7 +20,7 @@ import org.springframework.web.filter.CharacterEncodingFilter;
 // MainController :
 @Controller
 public class MainController {
-	@RequestMapping(method=RequestMethod.GET, value={"/","/index.html"})
+	@RequestMapping(method=RequestMethod.GET, value={"/","index.html"})
 	public String index(HttpServletRequest request , HttpServletResponse respone , Model model) throws Exception {
 		
 		model.addAttribute("title", "4차 프로젝트 블로그 메인");
@@ -28,7 +28,6 @@ public class MainController {
 	 	System.out.println("시스템 가동 준비완료!");
 		
 		return "/ctrl/main/index";
-		
 		
 	}
 	@RequestMapping(method=RequestMethod.GET, value={"/blog.html"})
@@ -62,27 +61,6 @@ public class MainController {
 		System.out.println("블로그 인덱스 준비완료!");
 		
 		return "/ctrl/main/project-example";
-		
-		
-	}
-	@RequestMapping(method=RequestMethod.GET, value={"/insert"})
-	public String insert(HttpServletRequest request , HttpServletResponse respone , Model model) throws Exception {
-		
-		
-        /*AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
- 	    ctx.register(AppConfig.class);
- 	    ctx.refresh();
- 	    VillageMapper mapper = ctx.getBean(VillageMapper.class);	
- 	    Village village = new Village();
- 	    village.setVid(4);
- 	    village.setVillageName("정승현");
- 	    village.setDistrict("인천");
- 	    mapper.insertVillage(village);
-        System.out.println("---Data saved---");*/
-       
-        model.addAttribute("title", "형이 알아봐 줄게.. 넌 숨만 쉬어.");
-		System.out.println("시스템 가동 준비완료!");
-		return "/ctrl/main/insert";
 		
 		
 	}

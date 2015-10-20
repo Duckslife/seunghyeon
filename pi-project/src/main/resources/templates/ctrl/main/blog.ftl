@@ -7,7 +7,7 @@
                         <section>
                             
                             <!--article image-->
-                            <img src="img/blog/banner-article-1.jpg" alt="" class="img-responsive">
+                            <img src="/img/blog/banner-article-1.jpg" alt="" class="img-responsive">
                             
                             <!--article title-->
                             <h1>my last experiments about mobile design</h1>
@@ -49,7 +49,7 @@
                             <h1 class="spacer">___</h1>
                             <div class="media">
                                 <a class="pull-left" href="#">
-                                    <img class="media-object img-circle" src="img/blog/avatar.jpg" alt="miniature-comment" width="48">
+                                    <img class="media-object img-circle" src="/img/blog/avatar.jpg" alt="miniature-comment" width="48">
                                 </a>
                                 <div class="media-body">
                                     <h3 class="media-heading">John doe</h3>
@@ -60,7 +60,7 @@
                             <hr class="sm">
                             <div class="media">
                                 <a class="pull-left" href="#">
-                                    <img class="media-object img-circle" src="img/blog/avatar-2.jpg" alt="miniature-comment" width="48">
+                                    <img class="media-object img-circle" src="/img/blog/avatar-2.jpg" alt="miniature-comment" width="48">
                                 </a>
                                 <div class="media-body">
                                     <h3 class="media-heading">Sandra Lima</h3>
@@ -95,10 +95,10 @@
                                     <h3 class="share">Share</h3>    
                                 </div>
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
-                                    <a href="#"><img class="social" src="img/icon/icon-mail.png" alt="Mail"></a>
-                                    <a href="#"><img class="social" src="img/icon/icon-facebook.png" alt="Facebook"></a>
-                                    <a href="#"><img class="social" src="img/icon/icon-twitter.png" alt="Twitter"></a>
-                                    <a href="#"><img class="social" src="img/icon/icon-google.png" alt="Google plus"></a>    
+                                    <a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
+                                    <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
+                                    <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
+                                    <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>    
                                 </div>
                             </div>
                             
@@ -117,7 +117,7 @@
                             <a class="pull-left" href="#">
                             
                                 <!--article image-->
-                                <img class="media-object" src="img/blog/article-min-1.png" alt="miniature-article">
+                                <img class="media-object" src="/img/blog/article-min-1.png" alt="miniature-article">
                                 
                             </a>
                             <div class="media-body">
@@ -139,7 +139,7 @@
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" src="img/blog/article-min-7.png" alt="miniature-article">
+                                <img class="media-object" src="/img/blog/article-min-7.png" alt="miniature-article">
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">Who Uses Graphic Designs</h4> 
@@ -150,7 +150,7 @@
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" src="img/blog/article-min-3.png" alt="miniature-article">
+                                <img class="media-object" src="/img/blog/article-min-3.png" alt="miniature-article">
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">How Responsive is awesome</h4>
@@ -161,7 +161,7 @@
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" src="img/blog/article-min-4.png" alt="miniature-article">
+                                <img class="media-object" src="/img/blog/article-min-4.png" alt="miniature-article">
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">The Complete Guide to Websites</h4>
@@ -172,7 +172,7 @@
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" src="img/blog/article-min-2.png" alt="miniature-article">
+                                <img class="media-object" src="/img/blog/article-min-2.png" alt="miniature-article">
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">5 Ideas for your Logotypes</h4>
@@ -183,7 +183,7 @@
                         </div>
                         <div class="media">
                             <a class="pull-left" href="#">
-                                <img class="media-object" src="img/blog/article-min-6.png" alt="miniature-article">
+                                <img class="media-object" src="/img/blog/article-min-6.png" alt="miniature-article">
                             </a>
                             <div class="media-body">
                                 <h4 class="media-heading">The Only Responsive Resources</h4>
@@ -195,7 +195,7 @@
                     </section>
                     <a class="btn btn-default btn-lg btn-block load-more">Load more</a>
                     <a class="btn btn-block scroll-top visible-xs">
-                        <img src="img/icon/icon-chevron.png" alt="Scroll top">
+                        <img src="/img/icon/icon-chevron.png" alt="Scroll top">
                     </a>
                 </div>
             </div>    

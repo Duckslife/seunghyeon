@@ -2,3 +2,4 @@ eclipse.preferences.version=1
 encoding//src/main/resources/templates/ctrl/main=UTF-8
 encoding//src/main/resources/templates/ctrl/main/index.ftl=UTF-8
 encoding//src/main/resources/templates/ctrl/main/navi.ftl=UTF-8
+encoding//src/main/resources/templates/ctrl/main/post.ftl=UTF-8
