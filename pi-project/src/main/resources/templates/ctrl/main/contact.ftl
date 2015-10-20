@@ -37,7 +37,7 @@
                 <div id="scroll-shadow"></div>
                     <section>
                         <div class="row">
-                            <div class="col-lg-12">
+                            <div class="col-sm-12">
                             
                                 <!--panel contact-->
                                 <div class="panel panel-default item">

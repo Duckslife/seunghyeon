@@ -1,32 +1,60 @@
 <#include "*/header.ftl">
 <#include "*/navi.ftl">
 
-            <div class="row bottom">
+<div class="row bottom">
                 <div class="col-lg-8 col-md-8 col-sm-7 col-left">
                     <div>
                         <section>
-                            <div class="row text-center">
-                                <div class="col-sm-12">
-                                    
-                                    <!--activity image-->
-                                    <img class="img-responsive" src="/img/image-home-2.jpg" alt="Project header">
-                                    
-                                    <!--activity title -->
-                                    <h1>라즈베리파이를 이용한 블로그 프로젝트 v2.1</h1>
-                                    <h1 class="spacer">___</h1>
-                                    
-                                    <!--activity descritpion-->
-                                    <p class="work">Living in incheon</p>
-                                    <p>라즈베리파이에 Ubuntu Mate , 개발환경은 스프링 부트와 마리아 db를 이용하여 구성 </p>
-                                    <p>하이버 네이트 (JPA) 연동 PRODUCT , 작성폼 CK 에디터 준비</p>
-                                
+                            <!--banner image-->
+                            <img src="/img/project/project-1/desktop-blog.jpg" alt="" class="img-responsive">
+                            
+                            <!--project title-->
+                            <h1>${board.title!'제목이 없습니다.'}</h1>
+                            <h1 class="spacer">___</h1>
+                            
+                            <!--project tags-->
+                            <p class="item-tags">
+                                <a href="#">illustration</a> ,
+                                <a href="#">graphic design</a> ,
+                                <a href="#">website</a>
+                            </p>
+                            
+                            <!--project content-->
+                            <p class="item-description">${board.content!'본문이 없습니다.'} ${no}</p>
+                            
+
+                            <ul class="pager">
+                                <#if no &gt; 1>
+                                <li class="previous"><a href="/product/${no-1}">&lt; Prev</a></li>
+                                <#else>
+                                <li class="previous disabled"><a href="#">&lt; Prev</a></li>
+                                </#if>
+                                <#if no &lt; maxsize>
+                                <li class="next"><a href="/product/${no+1}">Next &gt;</a></li>
+                                <#else>
+                                <li class="next disabled"><a href="#">Next &gt;</a></li>
+                                </#if>
+                            </ul>
+                            
+							
+                            <hr>
+                            
+                            <!--share-->
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                    <h3 class="share">Share</h3>    
                                 </div>
-                            </div>   
+                                <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 text-right">
+                                    <a href="#"><img class="social" src="/img/icon/icon-mail.png" alt="Mail"></a>
+                                    <a href="#"><img class="social" src="/img/icon/icon-facebook.png" alt="Facebook"></a>
+                                    <a href="#"><img class="social" src="/img/icon/icon-twitter.png" alt="Twitter"></a>
+                                    <a href="#"><img class="social" src="/img/icon/icon-google.png" alt="Google plus"></a>    
+                                </div>
+                            </div>
+                            
                         </section>
                     </div>
                 </div>
-                
-                <!-- 우측리스트 -->
                 <div class="col-lg-4 col-md-4 col-sm-5 col-right">
                     <div id="scroll-shadow"></div>
                     
@@ -262,6 +290,5 @@
                         <img src="/img/icon/icon-chevron.png" alt="Scroll top">
                     </a>
                 </div>
-            </div>                        
                 
- 	<#include "*/footer.ftl">
+  	<#include "*/footer.ftl">
